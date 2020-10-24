@@ -1,0 +1,175 @@
+      *{
+         box-sizing: border-box;
+         margin: 0;
+         padding: 0;
+         font-family: Arial, Helvetica, sans-serif;
+      }
+      h1{
+			text-align: center;
+			margin: 50px;
+			font-size: 175%;
+		}
+		h2{
+			text-align: center;
+			border: 1px solid black;
+			width: 100px;
+			position: relative;
+         top: 0;
+         left: 0;
+         float: right;
+         font-size: 125%;
+		}
+		.h1{
+			background-color: pink; 
+		}
+		.h2{
+			background-color: red;
+			color: white;
+		}	
+		.h3{
+			background-color: yellow;
+		}
+        div{	
+			background: gray;
+			border:1px solid black;
+			width: 90%;
+		    margin: auto;
+		}
+		p{
+			clear: right;
+			width: 90%;
+		    margin: auto;
+		} 
+        section{
+         	width:100%;
+         	height:100%;
+
+         }
+        @media(min-width:992px){
+         	.section-lg-1, .section-lg-2, .section-lg-3, .section-lg-4, .section-lg-5, .section-lg-6,.section-lg-7, .section-lg-8, .section-lg-9, .section-lg-10, .section-lg-11, .section-lg-12{
+         		float: left;
+         		border: 1px;
+         	}
+         	.section-lg-1{
+         		width:8.33%;
+         	}
+         	.section-lg-2{
+         		width:16.66%;
+         	}
+         	.section-lg-3{
+         		width:25%;
+         	}
+         	.section-lg-4{
+         		width:33%;
+         	}
+         	.section-lg-5{
+         		width:41.66%;
+         	}
+         	.section-lg-6{
+         		width:50%;
+         	}
+         	.section-lg-7{
+         		width:58.33%;
+         	}
+         	.section-lg-8{
+         		width:66.66%;
+         	}
+         	.section-lg-9{
+         		width:74.99%;
+         	}
+         	.section-lg-10{
+         		width:83.33%;
+         	}
+         	.section-lg-11{
+         		width:91.66;
+         	}
+         	.section-lg-12{
+         		width:100%;
+         	}
+         }
+        @media(min-width:768px) and (max-width:991px){
+         	.section-md-1, .section-md-2, .section-md-3, .section-md-4, .section-md-5, .section-md-6,.section-md-7, .section-md-8, .section-md-9,.section-md-10, .section-md-11, .section-md-12{
+         		float: left;
+        		margin-bottom: 20px;
+         		border: 1px ;
+         	}
+         	.section-md-1{
+         		width:8.33%;
+         	}
+         	.section-md-2{
+         		width:16.66%;
+         	}
+         	.section-md-3{
+         		width:25%;
+         	}
+         	.section-md-4{
+         		width:33%;
+         	}
+         	.section-md-5{
+         		width:41.66%;
+         	}
+         	.section-md-6{
+         		width:50%;
+         	}
+         	.section-md-7{
+         		width:58.33%;
+         	}
+         	.section-md-8{
+         		width:66.66%;
+         	}
+         	.section-md-9{
+         		width:74.99%;
+         	}
+         	.section-md-10{
+         		width:83.33%;
+         	}
+         	.section-md-11{
+         		width:91.66;
+         	}
+         	.ssection-md-12{
+         		width:100%;
+         	}
+         }
+         	@media(max-width:767px){
+         	.section-sm-1, .section-sm-2, .section-sm-3, .section-sm-4, .section-sm-5, .section-sm-6, .section-sm-7, .section-sm-8, .section-sm-9,.section-sm-10, .section-sm-11, .section-sm-12{
+         		float: left;
+         		margin-bottom: 20px;
+         		border: 1px ;
+         	}
+         	.section-sm-1{
+         		width:8.33%;
+         	}
+         	.section-sm-2{
+         		width:16.66%;
+         	}
+         	.section-sm-3{
+         		width:25%;
+         	}
+         	.section-sm-4{
+         		width:33%;
+         	}
+         	.section-sm-5{
+         		width:41.66%;
+         	}
+         	.section-sm-6{
+         		width:50%;
+         	}
+         	.section-sm-7{
+         		width:58.33%;
+         	}
+         	.section-sm-8{
+         		width:66.66%;
+         	}
+         	.section-sm-9{
+         		width:74.99%;
+         	}
+         	.section-sm-10{
+         		width:83.33%;
+         	}
+         	.section-sm-11{
+         		width:91.66;
+         	}
+         	.section-sm-12{
+         		width:100%;
+         	}
+         }
