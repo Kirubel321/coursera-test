@@ -1,0 +1,89 @@
+
+/* Header */
+
+#header-nav {
+	background-color: #6495ED;
+	border-radius: 0;
+	padding-top: 10px;
+}
+.navbar-brand {
+	padding-top: 10px;
+}
+.navbar-brand h1{
+	color: #000;
+	margin: -10px auto auto 10px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list a {
+	color: #000;
+	text-align: center;
+}
+#nav-list a:hover, {
+	background: #e7e7e7;
+}
+#nav-list-item {
+	background-color: #fff;
+	margin: auto -15px auto -15px;
+}
+.divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.navbar-header button.navbar-toggle{
+	border: 1px solid #000;
+}
+.navbar-header .icon-bar{
+	border: 2px solid #000;
+}
+.navbar-header button{
+	clear: both;
+	margin-top:-45px;
+	background-color: #B22222;
+}
+
+
+/* End Header */
+
+section {
+	background-color: #AFEEEE;
+	color: #000;
+	margin-bottom: 30px;
+}
+section p {
+	padding: 10px 20px 10px 20px;
+}
+.row h2 {
+	margin: 10px auto 30px auto;
+}
+/********* Large device only **********/
+@media(min-width: 1200px){
+    .container {
+		width: auto;
+		margin: 30px;
+	}
+}
+/********* Medium devices only *********/
+@media (min-width: 992px) and (max-width: 1199px){
+   .container {
+		width: auto;
+		margin: 30px;
+	}
+}
+/************ Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px){
+	.container {
+		width: auto;
+		margin: 30px ;
+}
+}
+/************ Extra small devices only *********/
+@media (max-width: 767px) {
+	.container {
+		width: auto;
+		margin: 30px;
+	}
+}
